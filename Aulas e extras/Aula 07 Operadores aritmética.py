@@ -1,0 +1,20 @@
+n = int(input("Type the number: "))  
+w = int(input("Type another number: "))  
+
+if w != 0 and n != 0:
+    print("-"*10)
+    print("Adição:", n + w)  
+    print("-"*10)
+    print("Subtração:", n - w)  
+    print("-"*10)
+    print("Multiplicação:", n * w)  
+    print("-"*10)
+    print("Divisão:", n / w) 
+    print("-"*10) 
+    print("Potência:", n ** w)  
+    print("-"*10)
+    print("Divisão inteira:", n // w)  
+    print("-"*10)
+    print("Resto da divisão:", n % w)  
+else:  
+    print("Error: divisão por zero!")
